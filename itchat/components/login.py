@@ -100,7 +100,7 @@ def get_QRuuid(self):
     params = {
         'appid' : 'wx782c26e4c19acffb',
         'fun'   : 'new',
-        'redirect_uri' : 'https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?mod=desktop',
+        'redirect_uri' : 'https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage',
         'lang'  : 'zh_CN' }
     headers = { 'User-Agent' : config.USER_AGENT }
     r = self.s.get(url, params=params, headers=headers)
